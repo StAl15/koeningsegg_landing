@@ -1,0 +1,116 @@
+.contactsContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #F2FBFF;
+
+
+  .contactsText {
+    margin-left: 50px;
+    max-width: 600px;
+    display: grid;
+    margin-right: 50px;
+
+
+    hr {
+      width: 60px;
+      margin-left: 0px;
+      border: 2px solid black;
+    }
+
+    h1 {
+      margin: 0px;
+      font-size: 60px;
+      font-family: 'Poppins-SemiBold';
+    }
+
+    p {
+      font-size: x-large;
+      font-family: 'AvenirNextCyr-Regular';
+    }
+
+    .socialLinks {
+      justify-content: space-between;
+      display: flex;
+      margin-top: 20px;
+      max-width: 250px;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .contactsCover {
+    margin-left: auto;
+    width: auto;
+    margin-right: 50px;
+
+
+    img {
+      border-style: none;
+      border-radius: 100px;
+    }
+
+    .up {
+      width: auto;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+
+    div {
+      justify-content: space-between;
+
+      img {
+        width: auto;
+        height: 370px;
+      }
+    }
+
+  }
+}
+
+@media(max-width: 600px) {
+  .contactsContent {
+    height: auto;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 30px;
+
+    .css-lmrzma {
+      margin-right: 0;
+    }
+
+    .contactsText {
+      h1 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .contactsCover {
+      min-width: 100%;
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      display: flex;
+
+
+      .up {
+        width: auto;
+        height: 170px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .left, .right {
+        display: none;
+      }
+    }
+  }
+}
