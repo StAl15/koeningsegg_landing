@@ -19,6 +19,7 @@
     margin-top: 40%;
     color: white;
 
+
     hr {
       width: 60px;
       margin-left: 0px;
@@ -70,6 +71,7 @@
     flex-wrap: wrap-reverse;
 
     .qualityText{
+      max-width: 100vw;
       margin-top: 5%;
       padding-bottom: 5%;
       h1 {

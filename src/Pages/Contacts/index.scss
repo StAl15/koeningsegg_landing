@@ -114,12 +114,19 @@
         font-size: 20px;
       }
       .socialLinks{
-        min-width: 12vw;
-        width: 14vw;
-        max-width: 16vw;
-        min-height: 12vh;
-        height: 14vh;
-        max-height: 16vh;
+        max-width: 120vw;
+        min-width: 20vw;
+        width: 40vw;
+        img{
+          //min-width: 12vw;
+          width: 50vw;
+          //max-width: 16vw;
+
+          //min-height: 12vh;
+          height: 50vh;
+          //max-height: 16vh;
+        }
+
       }
 
     }
