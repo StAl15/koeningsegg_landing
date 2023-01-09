@@ -6,11 +6,11 @@ export const Exclusivity: React.FC<{  }> = props => {
     return (
         <>
             <div className="exclusivityContent">
-                <Fade style={{marginLeft:'auto', marginRight:'auto'}} delay={300} duration={2000}>
+                <Fade triggerOnce style={{marginLeft: '10%', marginRight:'5%'}} delay={300} duration={2000}>
                     <div className="exclusivityCover"/>
                 </Fade>
 
-                <Slide delay={300} direction={'right'}>
+                <Slide triggerOnce delay={300} direction={'right'}>
                     <div className="exclusivityText">
                         <hr/>
                         <h1>Exclusivity</h1>

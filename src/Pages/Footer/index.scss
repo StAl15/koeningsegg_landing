@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  background-color: black;
+
+  h3 {
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+
+  }
+  p {
+    font-family: 'AvenirNextCyr-Light';
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}

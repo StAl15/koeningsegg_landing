@@ -13,11 +13,12 @@ export const Contacts: React.FC<{}> = props => {
     return (
         <>
             <div className="contactsContent">
-                <Slide direction={'left'} delay={300}>
+                <Slide triggerOnce direction={'left'} delay={300}>
                     <div className="contactsText">
                         <hr/>
                         <h1>Contacts</h1>
-                        <p>address: Sweden, Stokholm, 31 avenue Mount street <br/> phone: (292) 653 - 24 - 92 <br/> mail:
+                        <p>address: Sweden, Stokholm, 31 avenue Mount street <br/> phone: (292) 653 - 24 -
+                            92 <br/> mail:
                             rgthardkor@gmail.com</p>
                         <div className="socialLinks">
                             <a className="telegramLink" href="https://t.me/AlexRGT1">
@@ -37,7 +38,8 @@ export const Contacts: React.FC<{}> = props => {
                 </Slide>
 
 
-                <Fade style={{marginRight: 50, marginLeft: "auto"}} delay={300} duration={2000}>
+                <Fade triggerOnce className="contactsCover" style={{marginRight: '5%', marginLeft: "auto"}} delay={300}
+                      duration={2000}>
                     <div className="contactsCover">
                         <img className="up" src={up} alt="up"/>
                         <div style={{display: 'flex'}}>
@@ -47,7 +49,6 @@ export const Contacts: React.FC<{}> = props => {
 
                     </div>
                 </Fade>
-
 
 
             </div>

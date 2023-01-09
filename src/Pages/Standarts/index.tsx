@@ -6,11 +6,11 @@ export const Standarts: React.FC<{}> = props => {
     return (
         <>
             <div className="standartsContent">
-                <Fade delay={300} style={{marginLeft: 'auto', marginRight: 'auto'}}>
+                <Fade triggerOnce delay={300} style={{marginLeft: '10%', marginRight: '10%'}}>
                     <div className="standartsCover"/>
                 </Fade>
 
-                <Slide delay={300} direction={'right'}>
+                <Slide triggerOnce delay={300} direction={'right'}>
                     <div className="standartsText">
                         <hr/>
                         <h1>Standarts</h1>

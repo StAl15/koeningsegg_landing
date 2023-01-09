@@ -6,6 +6,7 @@ import {Standarts} from "./Pages/Standarts";
 import {Quality} from "./Pages/Quality";
 import {Exclusivity} from "./Pages/Exclusivity";
 import {Contacts} from "./Pages/Contacts";
+import {Footer} from "./Pages/Footer";
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
             <Main/>
             <Discover/>
             <Standarts/>
-            <Quality />
-            <Exclusivity />
-            <Contacts />
+            <Quality/>
+            <Exclusivity/>
+            <Contacts/>
+            <Footer />
         </div>
     );
 }

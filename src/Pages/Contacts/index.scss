@@ -7,8 +7,8 @@
 
 
   .contactsText {
-    margin-left: 50px;
-    max-width: 600px;
+    margin-left: 10%;
+    //max-width: 600px;
     display: grid;
     margin-right: 50px;
 
@@ -21,24 +21,35 @@
 
     h1 {
       margin: 0px;
-      font-size: 60px;
+      min-font-size: 4vw;
+      font-size: 5vw;
+      max-font-size: 6vw;
       font-family: 'Poppins-SemiBold';
     }
 
     p {
-      font-size: x-large;
+      min-font-size: 1vw;
+      font-size: 2vw;
+      max-font-size: 3vw;
       font-family: 'AvenirNextCyr-Regular';
     }
 
     .socialLinks {
+
       justify-content: space-between;
       display: flex;
       margin-top: 20px;
-      max-width: 250px;
+      max-width: 30vw;
+      min-width: 20vw;
+      width: 25vw;
 
       img {
-        width: 50px;
-        height: 50px;
+        min-width: 6vw;
+        width: 7vw;
+        max-width: 8vw;
+        min-height: 6vh;
+        height: 7vh;
+        max-height: 8vh;
       }
     }
   }
@@ -46,26 +57,37 @@
   .contactsCover {
     margin-left: auto;
     width: auto;
-    margin-right: 50px;
+    //height: auto;
+    //margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 
     img {
       border-style: none;
-      border-radius: 100px;
+      border-radius: 1000px;
     }
 
     .up {
       width: auto;
-      height: 300px;
-      margin-bottom: 20px;
+      height: 35vh;
+      max-height: 40vh;
+      min-height: 25vh;
+      margin-bottom: 5%;
     }
 
     div {
       justify-content: space-between;
 
+
       img {
         width: auto;
-        height: 370px;
+        height: 40vh;
+        max-height: 50vh;
+        min-height: 30vh;
+      }
+      .right {
+        margin-left: auto;
       }
     }
 
@@ -76,7 +98,8 @@
   .contactsContent {
     height: auto;
     flex-wrap: wrap-reverse;
-    margin-bottom: 30px;
+    padding-bottom: 10%;
+    //margin-bottom: 30px;
 
     .css-lmrzma {
       margin-right: 0;
@@ -90,19 +113,28 @@
       p {
         font-size: 20px;
       }
+      .socialLinks{
+        min-width: 12vw;
+        width: 14vw;
+        max-width: 16vw;
+        min-height: 12vh;
+        height: 14vh;
+        max-height: 16vh;
+      }
+
     }
 
     .contactsCover {
       min-width: 100%;
       height: auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
+      //margin-top: 10%;
+      //margin-bottom: 10%;
       display: flex;
 
 
       .up {
         width: auto;
-        height: 170px;
+        height: 25vh;
         margin-bottom: 0px;
         margin-left: auto;
         margin-right: auto;

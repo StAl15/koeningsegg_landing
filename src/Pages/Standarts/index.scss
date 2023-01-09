@@ -12,8 +12,8 @@
 
 
   .standartsText {
-    margin-left: 50px;
-    max-width: 600px;
+    //margin-left: 10%;
+    max-width: 60vw;
     display: grid;
     margin-right: 50px;
     color: white;
@@ -25,12 +25,16 @@
     }
     h1 {
       margin: 0px;
-      font-size: 60px;
+      min-font-size: 4vw;
+      font-size: 5vw;
+      max-font-size: 6vw;
       font-family: 'Poppins-SemiBold';
     }
 
     p {
-      font-size: x-large;
+      min-font-size: 1vw;
+      font-size: 1.5vw;
+      max-font-size: 2vw;
       font-family: 'AvenirNextCyr-Regular';
     }
   }
@@ -41,12 +45,16 @@
     background-position: center;
     background-size: cover;
     position: sticky;
-    min-width: 500px;
-    height: 700px;
-    margin-left: auto;
+    width: 25vw;
+    max-width: 30vw;
+    min-width: 20vw;
+    height: 70vh;
+    max-height: 80vh;
+    min-height: 40vh;
+    //margin-left: 10%;
     border-style: none;
     border-radius: 375px;
-    margin-right: auto;
+    //margin-right: 10%;
 
   }
 }
@@ -57,6 +65,9 @@
     flex-wrap: wrap;
 
     .standartsText{
+      margin-left: 10%;
+      padding-top: 5%;
+      padding-bottom: 5%;
       h1 {
         font-size: 40px;
       }
@@ -70,6 +81,7 @@
       height: 400px;
       margin-top: 30px;
       margin-bottom: 30px;
+
     }
   }
 }

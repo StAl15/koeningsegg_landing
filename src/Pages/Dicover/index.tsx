@@ -6,7 +6,7 @@ export const Discover: React.FC<{}> = props => {
     return (
         <>
             <div className="discoverContent">
-                <Slide direction={"left"} delay={300}>
+                <Slide triggerOnce direction={"left"} delay={300}>
                     <div className="discoverText">
                         <hr/>
                         <h1>Discover new sens</h1>
@@ -18,7 +18,7 @@ export const Discover: React.FC<{}> = props => {
                             bag. In addition to being a great fit, the Car Seat can be used in multiple ways</p>
                     </div>
                 </Slide>
-                <Fade delay={300} cascade
+                <Fade triggerOnce delay={300} cascade
                       style={{marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="discoverCover"/>
                 </Fade>

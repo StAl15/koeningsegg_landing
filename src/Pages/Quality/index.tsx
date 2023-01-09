@@ -7,7 +7,7 @@ export const Quality: React.FC<{}> = props => {
         <>
             <div className="qualityContent">
 
-                <Slide delay={300}  style={{marginTop: 'auto'}} direction={'left'}>
+                <Slide triggerOnce delay={300}  style={{marginTop: 'auto', marginBottom: '10%'}} direction={'left'}>
                     <div className="qualityText">
                         <hr/>
                         <h1>Quality</h1>
@@ -21,8 +21,8 @@ export const Quality: React.FC<{}> = props => {
                 </Slide>
 
 
-                <Fade delay={300} duration={2000}
-                      style={{marginLeft: 'auto', marginRight: 'auto'}}>
+                <Fade triggerOnce delay={300} duration={2000}
+                      style={{marginLeft: 'auto', marginRight: '10%'}}>
                     <div className="qualityCover"/>
                 </Fade>
 
